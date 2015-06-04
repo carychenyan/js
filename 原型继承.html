@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试原型继承</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+     var rectangle={
+     	area:function(width,height){
+     		return width*height;
+     	}
+     };
+
+	 var square = Object.create(rectangle);//对象继承，通过create就继承了rectangle的area函数方法 
+	     
+	     alert(rectangle.area.call(square,5,4));//square继承rectangle的area方法,执行area并调用其参数
+	     
+</script>
+</html>
