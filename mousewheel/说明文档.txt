@@ -1,0 +1,2 @@
+1，jquery 有插件可以实现，但是会和其他的jquery组件库冲突；
+2，本目录下面的index.html是原生态的js写的mousewheel事件效果；
